@@ -1,40 +1,60 @@
 body {
-    background-color: #000000;
+    background-color: #ffffff;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
 }
 
 header {
     background-color: #708090;
     text-align: justify;
-    padding: 10px;
 }
 
 a {
     text-decoration: none;
-    background-color: #A52A2A;
+    /* background-color: #A52A2A; */
     padding: 1px;
 }
 
 .projects .btn {
+    background-color: #A52A2A;
     padding: 8px;
+    display: inline-block;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+h1, h2 {
+    font-family: "Caveat", cursive;
+    font-weight: 400;
+    margin: 0;
+}
+
+h2 {
+    font-size: 30px;
 }
 
 a:hover {
     color: green;
-    background-color: rgba(165,42,42,75%);
+    /* background-color: rgba(165,42,42,75%); */
 }
 
 a:visited {
-    color: #ffffff;
+    color: white;
 }
 
-/* .projects .options {
-    padding: 2px;
-} */
+.content {
+    width: 700px;
+    margin: 0 auto;
+    padding: 60px 0;
+}
 
 .projects {
     background-color: #40E0D0;
     padding: 15px;
-    text-align: center;
+    text-align: justify;
 }
 
 .work.experience {
@@ -43,10 +63,14 @@ a:visited {
 
 .Education {
     background-color: #9370DB;
-    text-align: center;
+    text-align: justify;
     /* color: #F7FFF7; */
 }
 
 footer {
     background-color: #E0FFFF;
+}
+
+footer a:visited {
+    color: black;
 }
